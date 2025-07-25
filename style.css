@@ -6,7 +6,7 @@
 
 :root{
     background-color: #f5f4f0;
-    border-color: #d9d9d9;
+    --border-color: #d9d9d9;
     --text-primary: #1b1b1b;
     --text-secondary: #333333;
     --text-tertiary: #696969;
@@ -34,9 +34,11 @@ h3{
 }
 
 #subtitle{
+    padding: 20px;
     color: var(--text-secondary);
     font-size: 16px;
     font-style: italic;
+    border-bottom: 2px solid var(--border-color);
 }
 
 .headline{
@@ -50,6 +52,113 @@ p{
     font-weight: normal;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 body{
+    padding: 20px;
     background-color: var(--background-color);
+}
+
+#page{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+#title-page{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+    
+#discription-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content-header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 40px 0;
+}
+
+#content-header h2{
+ margin: 10px 0 10px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card h3{
+    margin: 10px 0 0 10px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+ul p{
+    font-weight: bold;
+}
+
+ul li{
+    margin: 0 0 0 15px;
+}
+
+#item-1{
+    font-weight: bold;
+    color: var(--accent-blue);
+}
+
+#item-2{
+    font-weight: bold;
+    color: var(--accent-purple);
+}
+
+#item-3{
+    font-weight: bold;
+    color: var(--accent-pink);
+}
+
+#item-4{
+    font-weight: bold;
+    color: var(--accent-orange);
+}
+
+#tourist-discrimination{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid var(--border-color);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: var(--text-primary);
+}
+
+footer i{
+    color: red;
+}
+
+footer a{
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: bold;
 }
