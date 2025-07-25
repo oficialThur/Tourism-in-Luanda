@@ -6,6 +6,10 @@
 
 Tourism in Luanda é um projeto desenvolvido como parte do desafio da trilha Full Stack da Rocketseat. O objetivo foi criar uma landing page responsiva sobre pontos turísticos de Luanda, capital de Angola, utilizando HTML e CSS.
 
+## Deploy do projeto
+
+[Turismo em Luanda](https://tourism-in-luanda.vercel.app/)
+
 ## 🎨 Layout
 
 O projeto apresenta um design moderno e clean, com:
